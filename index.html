@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veri Silme Talebi - Staj Bulma Uygulaması</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            max-width: 500px;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        p {
+            margin-bottom: 20px;
+            color: #555;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #e74c3c;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #c0392b;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Veri Silme Talebi</h1>
+        <p>Staj Bulma Uygulaması'ndaki hesabınızı ve ilişkili tüm kişisel verilerinizi silmek istiyorsanız, bu işlemi e-posta yoluyla gerçekleştirebilirsiniz.</p>
+        <p>Hesabınızın silinmesi için lütfen uygulamaya kayıt olduğunuz e-posta adresinizi kullanarak bize bir talep gönderin. Verileriniz talebinizden sonraki 7 iş günü içerisinde kalıcı olarak silinecektir.</p>
+        
+        <!-- Mailto linki, tıklandığında kullanıcının mail uygulamasını açar ve başlık/içerik kısımlarını otomatik doldurur -->
+        <a href="mailto:developer3442@gmail.com?subject=Staj Bulma Uygulaması - Veri Silme Talebi&body=Merhaba,%0D%0A%0D%0AStaj Bulma Uygulaması'ndaki hesabımın ve ilişkili tüm kişisel verilerimin silinmesini talep ediyorum.%0D%0A%0D%0AKayıtlı E-posta Adresim: [Lütfen kayıtlı e-posta adresinizi buraya yazın]%0D%0A%0D%0ATeşekkürler." class="btn">
+            Silme Talebi Gönder
+        </a>
+
+        <div class="footer">
+            Alternatif olarak <strong>developer3442@gmail.com</strong> adresine doğrudan e-posta gönderebilirsiniz.
+        </div>
+    </div>
+
+</body>
+</html>
